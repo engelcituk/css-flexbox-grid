@@ -8,6 +8,12 @@ body {
 }
 h2{
     flex: 0 1 100%;
+    text-align: center;
+}
+h3{
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    font-weight: 700
 }
 img {
     max-width: 100%;
@@ -28,4 +34,31 @@ img {
     .entrada{
         flex: 0 1 calc(33% - 1rem );
     }
+}
+.entrada{
+    margin-bottom: 1rem;
+}
+.contenido{
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+
+}
+
+.contenido span{
+    color: #db008b;
+}
+.contenido h3 {
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+
+.boton{
+    background-color: #008fd1;
+    color: #ffffff;
+    padding: .8rem 3rem;
+    display: inline-block;
+    text-decoration: none;
+
 }
