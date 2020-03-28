@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     box-sizing: border-box;
     margin:0;
@@ -56,3 +59,8 @@ nav ul a {
         margin-bottom: 0;
     }
 }
+
+/*estilos con iconos*/
+
+
+
