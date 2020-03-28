@@ -161,3 +161,13 @@ Estilos de menu de redes sociales
 .sociales ul li a[href*='pinterest.com']::before{
     content: "\f0d2"   
 }
+
+/*
+Estilos de menu dropdown con redes sociales, combinados
+*/
+.navegacion-social-dropdown{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F51B5;
+
+}
