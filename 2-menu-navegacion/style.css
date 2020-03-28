@@ -61,6 +61,32 @@ nav ul a {
 }
 
 /*estilos con iconos*/
+.iconos ul li a {
+    display: flex;
+    justify-content: center;
+}
+.iconos .icono {
+    flex: 0 1 2rem;
+}
 
+.iconos .texto span {
+    font-size: .8rem;
+    display: block;
+    margin-top: .5rem;
+}
+@media screen and (min-width:480px){
+    .iconos ul {
+        display: flex;
+        flex-wrap: wrap;
 
+    }
+    .iconos ul li {
+        flex: 0 1 50%;
+    }
+}
 
+@media screen and (min-width:768px){
+    .iconos ul li {
+        flex: 1;
+    }
+}
