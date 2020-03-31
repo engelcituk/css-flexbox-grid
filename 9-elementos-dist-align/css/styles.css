@@ -32,6 +32,9 @@ h2 {
     min-height: 100vh;
 }
 
+.centrado > div {
+    flex: 0 0 calc(33.3% - 3rem);
+}
 .contenido-centrado {
     color: white;
     text-align: center;
@@ -50,4 +53,26 @@ h2 {
 .contenido-centrado .ubicacion{
     font-weight: 900;
     font-size: 1.4rem;
+}
+
+.aviso{
+    background-color: #e0ab10;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.aviso span{
+    font-size: 3rem;
+    display: block;
+}
+
+.arriba{
+    align-self: flex-start;
+    margin-top: 2rem;;
+}
+
+.abajo {
+    align-self: flex-end;
+    margin-bottom: 2rem;;
+
 }
