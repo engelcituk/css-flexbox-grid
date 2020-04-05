@@ -8,6 +8,10 @@ body {
     box-sizing: inherit;
 }
 
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -86,3 +90,36 @@ blockquote {
 }
 
 /** Grid aqui**/
+.navegacion nav{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media screen and (min-width:768px){
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: minmax(100px, max-content) auto minmax(100px, maxcontent);
+        grid-template-rows: repeat(4,auto); 
+        grid-gap: 1rem;
+    }
+
+    .titulo{
+        grid-column: 1 / 4;
+    }
+    .informacion {
+        grid-row: 2 / 3;
+    }
+
+    .imagen1{
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+    }
+    .imagen2{
+        grid-row: 4 / 5;
+    }
+
+    .entrada {
+        grid-column: 2 / 3;
+        grid-row: 2 / 5;
+    }
+}
