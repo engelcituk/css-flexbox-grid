@@ -41,5 +41,18 @@ body{
     color: var(--claro);
     text-decoration: none;
     font-size: 1.4rem;
+}
 
+@media screen and (min-width:768px){
+    .header .barra{
+        grid-template-columns: 30% 1fr 30%;
+        justify-content: space-around;
+        grid-template-rows: unset;
+    }
+
+    .header .menu {
+        grid-column: 3 / 4;
+        display: grid;
+        align-content: center;
+    }
 }
