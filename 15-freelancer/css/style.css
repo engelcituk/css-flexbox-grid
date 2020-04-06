@@ -104,6 +104,10 @@ p{
     border-bottom: 3px solid var(--oscuro);
     margin-bottom: 3rem;
 }
+
+.elemento:last-of-type{
+    border: none;
+}
 @media screen and (min-width:768px){
     .listado{
         display: grid;
@@ -116,5 +120,23 @@ p{
     }
     .elemento:nth-child(3){
         grid-row-end: span 2;
+    }
+}
+
+/*Footer*/
+
+.footer{
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--claro);
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:768px){
+    .footer .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 30%) auto;
     }
 }
