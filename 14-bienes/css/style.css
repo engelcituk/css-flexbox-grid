@@ -42,6 +42,23 @@ p{
     font-size: 1.2rem;
     font-weight: 300;
 }
+
+.boton{
+    background-color: var(--primario);
+    display: block;
+    padding: var(--padding);
+    text-align: center;
+    color: var(--claro);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--primario);
+    transition: all .5s ease-in-out;
+
+}
+.boton:hover{
+    background-color: var(--claro);
+    color: var(--primario);
+}
 /*header*/
 
 .header{
@@ -123,4 +140,28 @@ p{
         grid-template-rows: repeat(2, auto);
 
     }
+}
+
+.card{
+    background-color:var(--claro);
+    padding: var(--padding);
+    border: 1px solid rgb(199, 199, 199);
+}
+.card p {
+    font-size: .9rem;
+    line-height: 1.8rem;
+}
+
+.anuncio{
+    display: grid;
+}
+
+.anuncio .precio {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.precio span {
+    font-weight: 300;
+    color: var(--primario);
 }
