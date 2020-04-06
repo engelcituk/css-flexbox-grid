@@ -31,6 +31,12 @@ h1,h2,h3,h4{
 h1{
     font-size: 2.4rem;
 }
+h2{
+    font-size: 2.2rem;
+}
+h3{
+    font-size: 2rem;
+}
 p{
     line-height: 2rem;
     font-size: 1.2rem;
@@ -93,4 +99,28 @@ p{
 .contenido-nosotros{
     display: grid;
     align-content: center;
+}
+
+.venta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1rem;
+}
+.venta img{
+    width: 100%;
+}
+.destacada{
+    grid-column: 1 / 3; 
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 1rem;
+}
+
+@media screen and (min-width:768px){
+    .venta{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+
+    }
 }
