@@ -13,13 +13,20 @@ html{
 }
 body{
     background-color: var(--gris);
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .contenedor{
     max-width: 1100px;
     margin: 0 auto;
 }
+img{
+    max-width: 100%;
+}
+
 /*header*/
+
 .header{
     margin-top: 2rem;
     background-color: var(--primario);
